@@ -11,6 +11,7 @@ import XCTest
 
 class KelvinColorTests: XCTestCase {
 
+    // testing values can be found at https://stackoverflow.com/questions/7229895/display-temperature-as-a-color-with-c
     func testKelvinColor() {
         assertColor(UIColor(temperature: 6500), red: 255, green: 249, blue: 253)
         assertColor(UIColor(temperature: 17500), red: 173, green: 200, blue: 255)
